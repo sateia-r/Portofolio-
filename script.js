@@ -2,7 +2,7 @@ document.getElementById('kirim').addEventListener('click', (event) =>
 {
 
 event.preventDefault();
-const nama = document.getElementById('name').value;
+const name = document.getElementById('name').value;
 const email = document.getElementById('email').value;
 const pesan = document.getElementById('pesan').value;
 
